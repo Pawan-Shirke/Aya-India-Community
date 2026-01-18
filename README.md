@@ -1,7 +1,9 @@
 🆔 Identity Lifecycle Vault
+
 A Solana smart contract that enforces identity lifecycle continuity by recording and governing identity update events as on-chain state. Built with Rust and Anchor to demonstrate how blockchain can support auditable, self-sovereign digital identity systems.
 
 🎯 Project Summary
+
 The Identity Lifecycle Vault treats digital identity as a time-evolving on-chain state rather than a one-time registration. Each identity is represented by a program-controlled account that records enrolment and update events. On-chain timestamps enforce lifecycle discipline, preventing neglected or unauditable identity states.
 
 ⚙️ How It Works
